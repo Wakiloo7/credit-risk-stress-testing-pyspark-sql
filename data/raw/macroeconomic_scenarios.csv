@@ -1,0 +1,4 @@
+scenario_name,unemployment_rate,inflation_rate,interest_rate,pd_multiplier
+baseline,0.04,0.025,0.03,1.0
+mild_stress,0.065,0.04,0.045,1.25
+severe_stress,0.1,0.065,0.065,1.75

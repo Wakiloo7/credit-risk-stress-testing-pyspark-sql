@@ -1,0 +1,28 @@
+project:
+  name: credit-risk-stress-testing-pyspark-sql
+  environment: local
+
+paths:
+  raw: data/raw
+  staging: data/staging
+  processed: data/processed
+  output: data/output
+
+risk_parameters:
+  base_lgd: 0.45
+  high_risk_lgd: 0.60
+  default_threshold_score: 600
+
+stress_scenarios:
+  baseline:
+    pd_multiplier: 1.00
+    income_shock: 0.00
+    interest_rate_shock: 0.00
+  mild_stress:
+    pd_multiplier: 1.25
+    income_shock: -0.05
+    interest_rate_shock: 0.01
+  severe_stress:
+    pd_multiplier: 1.75
+    income_shock: -0.15
+    interest_rate_shock: 0.03

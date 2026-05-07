@@ -1,0 +1,4 @@
+scenario_name,total_customers,total_ead,total_expected_loss,average_pd,average_lgd
+severe_stress,1000,3271258,302114.01,0.1483,0.55
+mild_stress,1000,3271258,196179.85,0.1059,0.5
+baseline,1000,3271258,141248.16,0.0848,0.45
